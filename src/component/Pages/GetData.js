@@ -13,7 +13,7 @@ function GetData({ players, deletePlayer, setEditingPlayer }) {
                         <div className="data_in">{player.total_assist}</div>
                         <div className="data_in">{player.nationality}</div>
                         <div className="data_in">{player.number}</div>
-                        <div className="data_in">
+                        <div className="action_button">
                             <button onClick={() => setEditingPlayer(player)}>수정</button>
                             <button onClick={() => deletePlayer(player.id)}>삭제</button>
                         </div>

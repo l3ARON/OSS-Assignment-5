@@ -1,9 +1,19 @@
-.div_first {
+.div_first1 {
     display: flex;
     margin-top: 10px;
     margin-left: 10px;
 }
 
+.div_first2{
+    margin: 0;
+    margin-top: 10px;
+    position: sticky;
+    top: 0px; /* 도달했을때 고정시킬 위치 */
+    padding: 5px;
+    background-color: white;
+    border: 1px solid;
+    z-index: 10;
+}
 .div_in{
     margin-right: 10px;
 }

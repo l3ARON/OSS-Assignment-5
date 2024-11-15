@@ -18,10 +18,11 @@
     width: 100px;
 }
 
-/* Header text bold style */
+/* Header text bold style 
 .data_in:first-child {
     font-weight: bold;
 }
+*/
 
 /* Player row styles */
 .player-row {
@@ -33,4 +34,9 @@
 /* 수정 삭제 버튼 */
 .data_in button {
     margin-right: 5px;
+}
+
+.action_button{
+    display: flex;
+    margin: 10px;
 }
