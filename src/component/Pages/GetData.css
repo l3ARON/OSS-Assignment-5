@@ -1,0 +1,36 @@
+/* GetData.css */
+
+/* 전체 div */
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header row styles */
+.data > div:first-child {
+    display: flex;
+    margin: 10px;
+}
+
+/* Individual data cell styles */
+.data_in {
+    margin: 5px;
+    width: 100px;
+}
+
+/* Header text bold style */
+.data_in:first-child {
+    font-weight: bold;
+}
+
+/* Player row styles */
+.player-row {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+/* 수정 삭제 버튼 */
+.data_in button {
+    margin-right: 5px;
+}
